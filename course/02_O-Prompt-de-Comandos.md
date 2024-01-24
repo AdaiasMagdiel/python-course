@@ -63,7 +63,7 @@ Esta saída mostra os itens dentro do diretório "C:\Users\Usuário".
 
 - **Data e Hora:** Indica a data e a hora da última modificação ou criação do arquivo ou diretório.
 
-- **<DIR>:** Indica que o item listado é um diretório (pasta).
+- **\<DIR\>:** Indica que o item listado é um diretório (pasta).
 
 - **.:** Refere-se ao diretório atual.
 
