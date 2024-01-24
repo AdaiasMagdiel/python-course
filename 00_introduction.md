@@ -2,7 +2,10 @@
 
 Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Seu desenvolvimento começou no final dos anos 1980, e sua história envolve várias versões e contribuições significativas.
 
-<img src="https://aem.dropbox.com/cms/content/dam/dropbox/blog/company/2019/guido_featured.png" style="margin-inline: auto; width: 320px; height: auto;">
+<p align="center">
+  <img alt="Foto do Guido Van Rossum" src="https://aem.dropbox.com/cms/content/dam/dropbox/blog/company/2019/guido_featured.png" style="width: 320px; height: auto;">
+  <img alt="Logo do Python" src="https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png" style="width: 320px; height: auto;">
+</p>
 
 1. **Origens (Final dos anos 1980):** O Python foi criado por **Guido van Rossum**, um programador holandês, no final dos anos 1980. Van Rossum queria criar uma linguagem de programação que fosse fácil de ler, escrever e entender. Ele começou o desenvolvimento do Python em dezembro de 1989 e lançou a primeira versão (Python 0.9.0) em fevereiro de 1991.
 
