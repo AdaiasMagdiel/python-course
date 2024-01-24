@@ -7,6 +7,7 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
 - [Introdução](course/01_Introduction.md)
   - [História](course/01_Introduction.md#história)
   - [Instalação](course/01_Introduction.md#instalação)
+  - [Escolhendo o editor de texto](course/01_Introduction.md#escolhendo-um-editor-de-texto)
 
 ## Autor
 
