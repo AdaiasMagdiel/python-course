@@ -114,4 +114,81 @@ C:\Users\Usuário\Downloads>cd ..
 C:\Users\Usuário>
 ```
 
-[Continua]
+### del
+
+O comando `del` é utilizado para remover arquivos e se aplica exclusivamente a arquivos. Assim como o comando `cd`, ele aceita argumentos, que, neste caso, são um ou mais arquivos a serem excluídos.
+
+```cmd
+C:\Users\Usuário>del arquivo.txt
+```
+
+Se o comando for bem-sucedido, nenhuma mensagem será retornada.
+
+Se você fornecer um arquivo inexistente como argumento para o comando, uma mensagem será exibida, indicando que não foi possível localizar o arquivo informado:
+
+```cmd
+C:\Users\Usuário>del nao-existe.txt
+Não foi possível encontrar C:\Users\Usuário\nao-existe.txt
+```
+
+Ao informar uma pasta como argumento para o comando, será solicitada uma confirmação, e todos os arquivos da pasta serão apagados (exceto os arquivos dentro de subpastas presentes no diretório informado).
+
+```cmd
+C:\Users\Usuário>del pasta
+C:\Users\Usuário\pasta\*, Tem certeza (S/N)? 
+```
+
+Existem algumas opções úteis para este comando:
+
+- **/S**: Exclui arquivos especificados de todos os subdiretórios.
+- **/Q**: Modo silencioso, sem solicitar confirmação para a exclusão.
+
+Você pode utilizá-las da seguinte forma:
+
+```cmd
+C:\Users\Usuário>del pasta /q
+```
+
+Ou
+
+```cmd
+C:\Users\Usuário>del pasta /s
+```
+
+Ou até mesmo
+
+```cmd
+C:\Users\Usuário>del pasta /s /q
+```
+
+> Tome cuidado ao utilizar a opção `/s` em conjunto com a opção `/q`, pois isso permite que o comando exclua todos os itens da pasta e das subpastas sem solicitar confirmação.
+
+### rd
+
+Do inglês "remove directory", o comando `rd`, como o próprio nome sugere, é utilizado para excluir diretórios através do CMD.
+
+Assim como o comando `del`, seu uso é bastante simples; basta digitar o comando e informar a pasta (ou pastas) a ser excluída.
+
+```cmd
+C:\Users\Usuário>rd pasta
+```
+
+Da mesma forma que o comando `del`, se o comando `rd` não retornar nada, significa que a exclusão foi bem-sucedida.
+
+No entanto, há um detalhe: o comando `rd` exclui apenas pastas vazias. Se você tentar apagar uma pasta que contenha arquivos, será exibida a seguinte mensagem de erro:
+
+```cmd
+C:\Users\Usuário>rd pasta
+A pasta não está vazia.
+```
+
+Então, como podemos apagar uma pasta que não está vazia? A resposta é simples: utilizando o comando `rd` com as mesmas opções que vimos no comando `del`, ou seja, `/s` e `/q` em conjunto, da seguinte forma:
+
+```cmd
+C:\Users\Usuário>rd pasta /s /q
+A pasta não está vazia.
+```
+
+A opção `/s` indica ao comando que você realmente deseja apagar os itens internos, e a opção `/q` indica que não é necessário confirmar a ação.
+
+Se você utilizar apenas a opção `/s`, a ação será concluída da mesma forma, mas será solicitada confirmação para a exclusão.
