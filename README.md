@@ -16,6 +16,10 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
     - [cd](course/02_O-Prompt-de-Comandos.md#cd)
     - [del](course/02_O-Prompt-de-Comandos.md#del)
     - [rd](course/02_O-Prompt-de-Comandos.md#rd)
+    - [mkdir](course/02_O-Prompt-de-Comandos.md#mkdir)
+    - [type](course/02_O-Prompt-de-Comandos.md#type)
+      - [Criando um Arquivo em Branco](course/02_O-Prompt-de-Comandos.md#criando-um-arquivo-em-branco)
+      - [O que é NUL?](course/02_O-Prompt-de-Comandos.md#o-que-e-nul)
 
 ## Autor
 
