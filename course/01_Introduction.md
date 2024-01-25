@@ -28,7 +28,9 @@ Python é uma linguagem de programação de alto nível, interpretada e de prop�
 
 6. **Importância na Atualidade:** Python se tornou uma das linguagens de programação mais populares e é amplamente utilizado em uma variedade de setores. Sua simplicidade, versatilidade e grande comunidade de desenvolvedores contribuíram para seu sucesso continuado.
 
-A história do Python destaca não apenas o trabalho técnico contínuo em torno da linguagem, mas também a importância da comunidade de desenvolvedores e da filosofia de design que enfatiza a legibilidade do código e a simplicidade.
+O nome "Python" para a linguagem de programação não tem uma ligação direta com a serpente ou com a região africana com o mesmo nome. O nome foi escolhido pelo criador do Python, Guido van Rossum, que é um fã do grupo britânico de comédia **Monty Python**. Ele decidiu nomear a linguagem em homenagem a esse grupo de comédia, conhecido por programas de televisão, filmes e esquetes humorísticas.
+
+Guido van Rossum começou a trabalhar em uma linguagem chamada ABC na década de 1980, enquanto estava no Centrum Wiskunde & Informatica (CWI) nos Países Baixos. O desenvolvimento de Python foi influenciado pela experiência de van Rossum com a linguagem ABC, mas Python é considerado uma linguagem distinta e independente.
 
 # Instalação
 
