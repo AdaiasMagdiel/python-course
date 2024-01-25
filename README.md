@@ -27,7 +27,8 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
     - [cls](course/02_O-Prompt-de-Comandos.md#cls)
     - [ren](course/02_O-Prompt-de-Comandos.md#ren)
       - [Diferença entre `ren` e `move`](course/02_O-Prompt-de-Comandos.md#diferença-entre-ren-e-move)
-
+  - [O Python](course/03_O-Python.md)
+    - [A Linguagem de Programação Python](course/03_O-Python.md#a-linguagem-de-programação-python)
 ## Autor
 
 - Adaías Magdiel
