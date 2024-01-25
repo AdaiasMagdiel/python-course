@@ -14,13 +14,13 @@ Você pode abrir o prompt de comandos de algumas maneiras:
 Para verificar se o Python foi instalado, digite o seguinte comando no prompt de comandos:
 
 ```cmd
-C:\Users\Usuário> python --version
+C:\Users\Usuário>python --version
 ```
 
 Se a saída for semelhante a isso, significa que o Python foi instalado corretamente.
 
 ```cmd
-C:\Users\Usuário> python --version
+C:\Users\Usuário>python --version
 Python 3.x.x
 ```
 
@@ -36,7 +36,7 @@ Ao abrir o CMD, você começa na pasta raiz do seu usuário, geralmente em `C:\U
 Para ver os arquivos na sua pasta atual, você pode utilizar o comando `dir` (do inglês *directory*, diretório), como pode ser visto abaixo:
 
 ```cmd
-C:\Users\Usuário> dir
+C:\Users\Usuário>dir
 ```
 
 Que gera a seguinte saída:
