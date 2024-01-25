@@ -20,6 +20,13 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
     - [type](course/02_O-Prompt-de-Comandos.md#type)
       - [Criando um Arquivo em Branco](course/02_O-Prompt-de-Comandos.md#criando-um-arquivo-em-branco)
       - [O que é NUL?](course/02_O-Prompt-de-Comandos.md#o-que-e-nul)
+    - [copy](course/02_O-Prompt-de-Comandos.md#copy)
+    - [move](course/02_O-Prompt-de-Comandos.md#move)
+      - [Exemplo de Renomeação de Arquivo](course/02_O-Prompt-de-Comandos.md#exemplo-de-renomeacao-de-arquivo)
+      - [Exemplo com Opção /Y](course/02_O-Prompt-de-Comandos.md#exemplo-com-opcao-y)
+    - [cls](course/02_O-Prompt-de-Comandos.md#cls)
+    - [ren](course/02_O-Prompt-de-Comandos.md#ren)
+      - [Diferença entre `ren` e `move`](course/02_O-Prompt-de-Comandos.md#diferenca-entre-ren-e-move)
 
 ## Autor
 
