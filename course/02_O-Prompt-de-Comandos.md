@@ -192,3 +192,52 @@ A pasta não está vazia.
 A opção `/s` indica ao comando que você realmente deseja apagar os itens internos, e a opção `/q` indica que não é necessário confirmar a ação.
 
 Se você utilizar apenas a opção `/s`, a ação será concluída da mesma forma, mas será solicitada confirmação para a exclusão.
+
+### mkdir
+
+O comando `mkdir` (do inglês *make directory*, criar diretório) é utilizado para criar novos diretórios no CMD. Essa é uma operação fundamental quando você precisa organizar e estruturar seus arquivos no sistema.
+
+Ao utilizar o `mkdir`, você pode criar um novo diretório especificando seu nome como argumento, da seguinte forma:
+
+```cmd
+C:\Users\Usuário>mkdir NovoDiretorio
+```
+
+É importante observar algumas coisas ao utilizar este comando:
+
+1. Evite espaços em branco ou caracteres especiais nos nomes dos diretórios para garantir compatibilidade com diferentes sistemas operacionais. Caso você queira nomear uma pasta com um nome contendo espaços você deve colocar o nome dentro de aspas: ```mkdir "nome com espaços"``` mas essa não é uma prática recomendada.
+
+2. Se o diretório que você está criando já existir, o comando retornará uma mensagem informando que o diretório não pode ser criado.
+
+```cmd
+C:\Users\Usuário>mkdir Downloads
+Já existe uma subpasta ou arquivo com esse nome.
+```
+
+### type
+
+O comando `type` no CMD do Windows é utilizado para exibir o conteúdo de arquivos de texto diretamente no prompt de comando.
+
+```cmd
+C:\Users\Usuário>type arquivo.txt
+```
+
+Isso exibirá o conteúdo do arquivo "arquivo.txt" diretamente na tela do CMD.
+
+#### Criando um Arquivo em Branco
+
+Uma aplicação interessante do type é criar arquivos em branco usando o dispositivo especial `NUL`.
+
+Para criar um arquivo em branco, você pode usar o seguinte comando:
+
+```cmd
+C:\Users\Usuário>type NUL > arquivo.txt
+```
+
+Neste exemplo, `NUL` é um dispositivo especial do Windows que representa uma porta nula. Ao redirecionar a saída do `type NUL` para um arquivo (`> arquivo.txt`), você cria um arquivo vazio chamado "arquivo.txt". O simbolo `>` nesse contexto indica que você está enviando algo para algum lugar, no caso está enviando o conteúdo de NUL para o arquivo arquivo.txt (que será criado nessa ação).
+
+#### O que é NUL?
+
+Em sistemas Windows, `NUL` é um dispositivo que aceita dados, mas os descarta, efetivamente criando uma saída nula. Portanto, quando você redireciona `type NUL` para um arquivo, você está essencialmente direcionando nada para o arquivo, resultando em um arquivo vazio.
+
+É preciso observar que o uso do dispositivo `NUL` para criar arquivos em branco é específico do ambiente CMD do Windows e pode não ser aplicável em outros sistemas operacionais.
