@@ -27,8 +27,11 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
     - [cls](course/02_O-Prompt-de-Comandos.md#cls)
     - [ren](course/02_O-Prompt-de-Comandos.md#ren)
       - [Diferença entre `ren` e `move`](course/02_O-Prompt-de-Comandos.md#diferença-entre-ren-e-move)
-  - [O Python](course/03_O-Python.md)
-    - [A Linguagem de Programação Python](course/03_O-Python.md#a-linguagem-de-programação-python)
+  - [O Primeiro Programa](course/03_O-Primeiro-Programa.md)
+    - [A Linguagem de Programação Python](course/03_O-Primeiro-Programa.md#a-linguagem-de-programação-python)
+    - [Olá, Mundo!](course/03_O-Primeiro-Programa.md#olá-mundo)
+      - [Exibindo uma mensagem na tela](course/03_O-Primeiro-Programa.md#exibindo-uma-mensagem-na-tela)
+
 ## Autor
 
 - Adaías Magdiel
