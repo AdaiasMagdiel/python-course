@@ -241,3 +241,108 @@ Neste exemplo, `NUL` é um dispositivo especial do Windows que representa uma po
 Em sistemas Windows, `NUL` é um dispositivo que aceita dados, mas os descarta, efetivamente criando uma saída nula. Portanto, quando você redireciona `type NUL` para um arquivo, você está essencialmente direcionando nada para o arquivo, resultando em um arquivo vazio.
 
 É preciso observar que o uso do dispositivo `NUL` para criar arquivos em branco é específico do ambiente CMD do Windows e pode não ser aplicável em outros sistemas operacionais.
+
+### copy
+
+O comando `copy` no CMD do Windows é usado para copiar arquivos de um local para outro. É uma ferramenta útil para duplicar ou fazer backups de arquivos de maneira rápida e eficiente.
+
+Para realizar uma cópia simples de um arquivo, você pode usar o seguinte formato:
+
+```cmd
+C:\Users\Usuário>copy arquivo_origem.txt destino\
+```
+
+Este comando copiará o arquivo "arquivo_origem.txt" para o diretório de destino especificado.
+
+Observações Importantes
+
+1. Se um arquivo com o mesmo nome já existir no destino, o comando `copy` solicitará uma confirmação antes de substituí-lo. Você pode optar por confirmar digitando `S` para sim ou `N` para não.
+
+2. Utilize as opções apropriadas, como `/Y`, para suprimir mensagens de confirmação ao substituir automaticamente arquivos existentes.
+
+```cmd
+C:\Users\Usuário>copy /Y arquivo.txt D:\Destino\
+```
+
+Este comando copiará o arquivo "arquivo.txt" para o destino especificado, substituindo automaticamente qualquer arquivo com o mesmo nome sem solicitar confirmação.
+
+
+### move
+
+O comando `move` no CMD do Windows é utilizado para mover arquivos ou renomeá-los.
+
+Para mover um arquivo de um local para outro, você pode usar o seguinte formato:
+
+```cmd
+C:\Users\Usuário>move arquivo.txt novo_destino\
+```
+
+Este comando move o arquivo "arquivo.txt" para o novo destino especificado.
+
+#### Exemplo de Renomeação de Arquivo
+
+Além de mover arquivos, o comando `move` também pode ser usado para renomear arquivos:
+
+```cmd
+C:\Users\Usuário>move arquivo_antigo.txt novo_nome.txt
+```
+
+Este comando renomeia o arquivo "arquivo_antigo.txt" para "novo_nome.txt".
+
+Observações Importantes
+
+1. Se um arquivo com o mesmo nome já existir no destino, o comando `move` solicitará uma confirmação antes de substituí-lo. Você pode optar por confirmar digitando `S` para sim ou `N` para não.
+
+2. Utilize as opções apropriadas, como `/Y`, para suprimir mensagens de confirmação ao substituir automaticamente arquivos existentes.
+
+#### Exemplo com Opção /Y
+
+```cmd
+C:\Users\Usuário>move /Y arquivo.txt D:\Destino\
+```
+
+Este comando move o arquivo "arquivo.txt" para o destino especificado, substituindo automaticamente qualquer arquivo com o mesmo nome sem solicitar confirmação.
+
+### cls
+
+O comando `cls` no CMD do Windows é utilizado para limpar a tela do prompt de comando, proporcionando uma visualização mais limpa e organizada.
+
+Para limpar a tela, basta digitar o seguinte comando:
+
+```cmd
+C:\Users\Usuário>cls
+```
+
+Este comando remove todas as informações e comandos anteriores da tela. O `cls` é especialmente útil quando a tela do prompt de comando fica cheia de saídas de comandos anteriores, tornando difícil acompanhar ou visualizar novas informações.
+
+### ren
+
+O comando `ren` no CMD do Windows é utilizado para renomear arquivos ou grupos de arquivos. Ele oferece uma maneira simples de alterar o nome de um arquivo sem mover seu local no sistema de arquivos.
+
+Para renomear um arquivo, você pode usar o seguinte formato:
+
+```cmd
+C:\Users\Usuário>ren arquivo_antigo.txt novo_nome.txt
+```
+
+Este comando renomeia o arquivo "arquivo_antigo.txt" para "novo_nome.txt".
+
+#### Diferença entre `ren` e `move`
+
+Embora tanto `ren` quanto `move` possam ser usados para renomear arquivos, a principal diferença está no escopo de sua funcionalidade:
+
+- **`ren` (rename):** Como o próprio nome sugere, o `ren` é usado exclusivamente para renomear arquivos. Ele não altera a localização física do arquivo no sistema de arquivos.
+
+- **`move`:** O `move`, além de mover arquivos para diferentes diretórios, também pode ser usado para renomear arquivos. Isso significa que, ao utilizar o `move` para renomear um arquivo, você pode, ao mesmo tempo, alterar seu local no sistema de arquivos.
+
+Observações Importantes
+
+1. Se um arquivo com o mesmo nome já existir no diretório, o comando `ren` solicitará uma confirmação antes de substituí-lo. Você pode optar por confirmar digitando `S` para sim ou `N` para não.
+
+2. Utilize as opções apropriadas, como `/Y`, para suprimir mensagens de confirmação ao substituir automaticamente arquivos existentes.
+
+---
+
+Esta foi uma breve introdução aos comandos fundamentais do CMD no Windows, focando na manipulação de arquivos e diretórios. Embora tenhamos abordado comandos como `cd`, `dir`, `del`, `rd`, `mkdir`, `type`, `copy`, `move`, `cls`, e `ren`, é importante destacar que há muitos outros comandos disponíveis para uma variedade de tarefas e você pode consultar todos usando o comando `help` e lendo a seção de ajuda no próprio CMD.
+
+> Até a próxima e obrigado pelos peixes!
