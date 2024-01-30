@@ -5,7 +5,7 @@
 Variáveis em Python são como contêineres que armazenam valores. Podemos imaginá-las como caixas que guardam informações, e sempre podemos recuperar o que foi armazenado. Nesta analogia, cada caixa é uma variável.
 
 <p align="center">
-	<img src="https://www.make.com/en/help/image/uuid-0e2736c7-2a14-1c95-9cba-ffb6ad68b32d.png" alt="Caixas como representação para variáveis" style="width: 80%; max-width: 320px;">
+	<img src="https://miro.medium.com/v2/resize:fit:320/1*Px7h03Ih7B5QZu4KQpSEoQ.png" alt="Caixas como representação para variáveis" style="width: 80%; max-width: 320px;">
 </p>
 
 Para identificar de qual caixa queremos pegar o objeto armazenado, basta etiquetar a caixa com um nome que faz referência ao que está guardado. Assim são as variáveis em Python; cada uma tem um nome e um valor associado.
