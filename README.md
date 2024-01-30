@@ -32,6 +32,13 @@ Bem-vindo ao curso de Python! Este repositório contém um breve curso introdut�
     - [Olá, Mundo!](lessons/03_O-Primeiro-Programa.md#olá-mundo)
       - [Exibindo uma mensagem na tela](lessons/03_O-Primeiro-Programa.md#exibindo-uma-mensagem-na-tela)
 - [Variáveis](lessons/04_Variáveis.md)
+  - [Introdução](lessons/04_Variáveis.md#introdução)
+  - [Declarando Variáveis em Python](lessons/04_Variáveis.md#declarando-variáveis-em-python)
+  - [Exibindo Variáveis](lessons/04_Variáveis.md#exibindo-variáveis)
+  - [Tipos Primitivos em Python](lessons/04_Variáveis.md#tipos-primitivos-em-python)
+  - [Regras Para a Nomeação de Variáveis](lessons/04_Variáveis.md#regras-para-a-nomeação-de-variáveis)
+    - [Boas Práticas e Padronização de Código](lessons/04_Variáveis.md#boas-práticas-e-padronização-de-código)
+    - [Padrões da linguagem Python](lessons/04_Variáveis.md#padrões-da-linguagem-python)
 
 ## Autor
 
