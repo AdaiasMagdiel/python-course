@@ -92,4 +92,8 @@ Olá Mundo !
 
 Repare que, apesar de não termos colocado espaços entre as palavras em cada argumento, o Python retornou o texto com espaços. Esse é o comportamento padrão da função: ao receber mais de um argumento, ela exibe na tela, separando os argumentos com espaços.
 
+---
+
 Experimente brincar com o código, trocando os textos, passando mais textos e sinta como a linguagem se comporta com as suas alterações.
+
+> Até a próxima e obrigado pelos peixes!
